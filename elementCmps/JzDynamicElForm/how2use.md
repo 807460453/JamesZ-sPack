@@ -16,7 +16,7 @@ instead pass this as a prop
         cmp: { type: 'el-input', attrs: { placeholder: 'placeholder' }}
     }
 
-![](./c.png)
+![](https://github.com/807460453/JamesZ-sPack/blob/main/elementCmps/JzDynamicElForm/c.png?raw=true)
 
 
 
