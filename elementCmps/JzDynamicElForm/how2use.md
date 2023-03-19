@@ -1,5 +1,5 @@
 # What is JzDynamicElForm
-JzDynamicElForm is a vue2 component that accept obj-data and translate it into a form
+JzDynamicElForm is a vue2 + elementUi component that accept obj-data and translate it into a form
 
 you don't neet to use this to create a form
 
