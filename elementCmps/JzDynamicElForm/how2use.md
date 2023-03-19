@@ -11,10 +11,10 @@ you don't neet to use this to create a form
 
 instead pass this as a prop
 
-    { 
+    [{ 
         key: 'f1', prop: 'f1', label: 'field1',
         cmp: { type: 'el-input', attrs: { placeholder: 'placeholder' }}
-    }
+    }]
 
 ![](https://github.com/807460453/JamesZ-sPack/blob/main/elementCmps/JzDynamicElForm/c.png?raw=true)
 
