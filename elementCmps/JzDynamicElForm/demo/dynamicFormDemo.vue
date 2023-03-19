@@ -171,11 +171,6 @@ export default {
         console.log(form, ctx)
         form.projectNumber = '1'
       })
-    },
-    testCooperatingIndividualChange() {
-      this.$refs.DynamicForm.handleForm((form, ctx) => {
-        form.projectNumber = '2'
-      })
     }
   }
 }
