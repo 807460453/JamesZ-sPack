@@ -80,7 +80,7 @@ export default {
             type: 'el-date-picker',
             attrs: { 'value-format': 'yyyy-MM-dd' },
             events: {
-              onChange: function(...args) {
+              change: function(...args) {
                 console.log(this)
                 console.log(...args)
               }
@@ -169,12 +169,12 @@ export default {
     textBtnClick(context) {
       context.handleForm((form, ctx) => {
         console.log(form, ctx)
-        form.projectNumber = '1'
+        form.f1 = '1'
       })
     },
     testCooperatingIndividualChange() {
       this.$refs.DynamicForm.handleForm((form, ctx) => {
-        form.projectNumber = '2'
+        form.f1 = '2'
       })
     }
   }
