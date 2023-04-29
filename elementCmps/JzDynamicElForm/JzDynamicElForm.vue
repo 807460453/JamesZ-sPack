@@ -1,10 +1,10 @@
 
 <script>
-import zyRegion from '@/components/zyRegion/zyRegion.vue'
+
 export default {
   name: 'DynamicForm',
   components: {
-    zyRegion
+    
   },
   props: {
 
