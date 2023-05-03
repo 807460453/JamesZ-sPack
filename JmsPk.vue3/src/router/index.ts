@@ -12,6 +12,10 @@ const router = createRouter({
         {
           path: 'dynamicFormPage',
           component: () => import('@/components/myCmp/dynamicForm/dynamicFormPage.vue')
+        },
+        {
+          path: 'dynamicTable',
+          component: () => import('@/components/myCmp/dynamicTable/dynamicTablePage.vue')
         }
       ]
     },

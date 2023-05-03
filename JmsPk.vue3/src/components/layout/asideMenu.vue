@@ -43,7 +43,7 @@ const menus = ref<menuNode[]>([
     key: 1, title: "components",
     menus: [
       { key: 11, title: "dynamicForm", index: '/dynamicFormPage' },
-      { key: 12, title: "dynamicTable", index: '/dynamicFormTable' },
+      { key: 12, title: "dynamicTable", index: '/dynamicTable' },
 
     ]
   },
