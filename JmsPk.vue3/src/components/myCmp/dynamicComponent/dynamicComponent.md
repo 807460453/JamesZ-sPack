@@ -1,3 +1,5 @@
+![](https://github.com/807460453/JamesZ-sPack/blob/main/JmsPk.vue3/src/components/myCmp/dynamicComponent/dynamicCmp.PNG?raw=true)
+
 The whole content is made of these
 
     [
