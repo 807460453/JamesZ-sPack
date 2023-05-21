@@ -1,9 +1,9 @@
 
 <script lang="tsx">
 import { nextTick, onMounted, ref, watch, h, useSlots, type Ref, resolveComponent } from 'vue';
-import "./dynamicFormPageTypes";
 import type { ElForm } from 'element-plus';
 import type { keysOf } from 'element-plus/es/utils';
+import type { CmpItem, Ctx, Events, Rule, SubCompTypes } from './dynamicFormPageTypes';
 // import type { validator } from 'async-validator'
 
 
@@ -70,7 +70,7 @@ export default {
             clearValidate,
             handleForm,
         }
-        
+
         // context.expose({ ctx, getFormData })
 
         const slots = useSlots()

@@ -10,6 +10,10 @@ const router = createRouter({
       component: HomeView,
       children: [
         {
+          path: 'dynamicComponentPage',
+          component: () => import('@/components/myCmp/dynamicComponent/dynamicComponentPage.vue')
+        },
+        {
           path: 'dynamicFormPage',
           component: () => import('@/components/myCmp/dynamicForm/dynamicFormPage.vue')
         },

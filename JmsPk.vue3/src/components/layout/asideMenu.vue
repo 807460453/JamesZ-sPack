@@ -42,8 +42,9 @@ const menus = ref<menuNode[]>([
   {
     key: 1, title: "components",
     menus: [
-      { key: 11, title: "dynamicForm", index: '/dynamicFormPage' },
-      { key: 12, title: "dynamicTable", index: '/dynamicTable' },
+      { key: 11, title: "dynamicComponent", index: '/dynamicComponentPage' },
+      { key: 12, title: "dynamicForm", index: '/dynamicFormPage' },
+      { key: 13, title: "dynamicTable", index: '/dynamicTable' },
 
     ]
   },
@@ -52,7 +53,8 @@ const menus = ref<menuNode[]>([
   // { key: 4, title: "4", menus: [{ key: 41, title: "41", index: '' }] },
 ]);
 
-const defaultActive = ref('/dynamicFormPage')
+const defaultActive = ref('/dynamicComponentPage')
+
 
 const router = useRouter()
 

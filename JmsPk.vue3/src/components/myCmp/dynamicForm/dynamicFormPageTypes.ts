@@ -1,18 +1,18 @@
 // import type { validator } from 'async-validator';
-interface Attrs {
+export interface Attrs {
     [key: string]: any;
 }
-interface SubComp {
+export interface SubComp {
     key: string | number;
     label: string
     content: string
     [key: string]: any;
 }
-interface Events {
+export interface Events {
     [key: string]: () => any;
 }
 
-interface CmpInfo {
+export interface CmpInfo {
     style: any;
     cls: any;
     type: string;
@@ -21,7 +21,7 @@ interface CmpInfo {
     events?: Events
     slotName?: string
 }
-interface CmpItem {
+export interface CmpItem {
     layout: any;
     before: any;
     after: any;
@@ -36,17 +36,18 @@ interface CmpItem {
 
 
 
-interface Rule {
+export interface Rule {
     required?: boolean
     message?: string
     // validator?: validator
     validator?: (rule: Rule, value: any, callback: (e: any) => any) => void
 }
 
-interface SubCompTypes {
+export interface SubCompTypes {
     [key: string]: string
 }
 
-interface Ctx {
+export interface Ctx {
     [key: string]: any
 }
+
