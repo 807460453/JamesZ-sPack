@@ -5,7 +5,7 @@ It's a simple Map demo using [vue-leaflet](https://github.com/vue-leaflet/vue-le
 
 
 ## What does it look like
-
+![](https://github.com/807460453/JamesZ-sPack/blob/main/mapTest/src/assets/map.PNG?raw=true)
 
 ## Structure
 The main file of this project
