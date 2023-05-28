@@ -1,0 +1,1 @@
+export const preUrl = '/mock'
